@@ -59,6 +59,8 @@ By combining long-term reflection with cognitive modeling, ALMA helps people rec
 
 Its purpose is not to make decisions for people, but to help them make better decisions through deeper self-understanding.
 
+# PB-003 — Vision
+
 ## Vision
 
 We envision a future where every person has access to a private cognitive mirror that helps them better understand themselves throughout life.
