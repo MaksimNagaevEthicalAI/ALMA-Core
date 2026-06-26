@@ -16,7 +16,7 @@ Every strategic product decision should remain consistent with this document.
 
 ## The Problem
 
-People often repeat the same relationship patterns without understanding why.
+People often struggle to understand themselves and, as a result, unknowingly repeat the same psychological and relationship patterns.
 
 Most individuals recognize the consequences of these patterns only after emotional pain, conflict, or separation has already occurred.
 
@@ -152,5 +152,9 @@ The purpose of ALMA is not to predict the future but to improve the quality of s
 The ultimate success of ALMA is not creating long-term dependence.
 
 It is helping people become increasingly capable of understanding themselves without needing ALMA.
+
+# PB-006 — Definition of ALMA
+
+ALMA is a cognitive system that builds an evolving psychological model of an individual in order to increase self-understanding through structured reflection.
 
 
