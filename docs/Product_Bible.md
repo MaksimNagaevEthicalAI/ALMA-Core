@@ -46,3 +46,15 @@ ALMA exists to help people understand the hidden psychologigal mechanisms that s
 ALMA is designed to increase understanding before attempting to influence decisions.
 
 Insight comes before advice.
+
+# PB-002 — Mission
+
+## Mission
+
+ALMA exists to help people better understand themselves.
+
+Human relationships are one of the most powerful mirrors of our inner world. They reveal our values, fears, emotional patterns, expectations, and unconscious ways of connecting with others.
+
+By combining long-term reflection with cognitive modeling, ALMA helps people recognize the hidden psychological mechanisms that shape their choices, relationships, and personal growth.
+
+Its purpose is not to make decisions for people, but to help them make better decisions through deeper self-understanding.
