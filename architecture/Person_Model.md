@@ -29,3 +29,15 @@ A person is not a diagnosis.
 A person is a continuously evolving cognitive system.
 
 Therefore, every representation inside ALMA must remain dynamic and revisable.
+
+---
+
+## Closing Principle
+
+The Person Model is never finished.
+
+Every meaningful conversation has the potential to refine, strengthen, challenge, or replace previous understanding.
+
+Understanding a person is not a destination.
+
+It is a continuous process.
