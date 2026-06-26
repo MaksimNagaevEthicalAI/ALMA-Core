@@ -25,8 +25,13 @@
           ▼                       ▼
 
    Reflection Engine      Memory System
+       
           │                       │
+          
           └───────────┬───────────┘
                       ▼
 
             Next Conversation
+
+
+            
