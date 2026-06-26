@@ -51,7 +51,7 @@ Insight comes before advice.
 
 ## Mission
 
-ALMA exists to help people better understand themselves.
+ALMA exists to help people achieve greater psychological clarity through structured self-understanding.
 
 Human relationships are one of the most powerful mirrors of our inner world. They reveal our values, fears, emotional patterns, expectations, and unconscious ways of connecting with others.
 
@@ -66,3 +66,34 @@ We envision a future where every person has access to a private cognitive mirror
 Rather than replacing human intuition or professional support, ALMA strengthens self-awareness by revealing patterns, tracking personal growth, and helping people make more conscious decisions.
 
 Our long-term vision is to make deep self-understanding available to everyone—not only during moments of crisis, but as a natural part of everyday life.
+
+# PB-004 — What ALMA Is Not
+
+## What ALMA Is Not
+
+To remain consistent with its mission, ALMA deliberately avoids roles that conflict with its purpose.
+
+ALMA is **not** a therapist.
+
+It does not diagnose mental health conditions, provide clinical treatment, or replace professional psychological support.
+
+ALMA is **not** a dating application.
+
+Its purpose is not to maximize matches or encourage endless engagement.
+
+ALMA is **not** a personality test.
+
+People cannot be accurately described by a single label or fixed type.
+
+ALMA is **not** an oracle.
+
+It does not predict the future or claim certainty about human behavior.
+
+ALMA is **not** a decision-maker.
+
+It helps people understand themselves more clearly, but every important decision remains the responsibility of the individual.
+
+ALMA is **not** designed to create dependence.
+
+Its long-term goal is to increase self-understanding, emotional independence, and the ability to make conscious choices without relying on ALMA itself.
+
