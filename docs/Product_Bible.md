@@ -14,7 +14,7 @@ Every strategic product decision should remain consistent with this document.
 
 # PB-001 — Problem Statement
 
-### The Problem
+## The Problem
 
 People often repeat the same relationship patterns without understanding why.
 
@@ -41,7 +41,7 @@ They are symptoms of deeper psychological mechanisms that remain largely invisib
 
 ALMA exists to investigate those mechanisms.
 
-### Design Philosophy
+## Design Philosophy
 
 ALMA is designed to increase understanding before attempting to influence decisions.
 
