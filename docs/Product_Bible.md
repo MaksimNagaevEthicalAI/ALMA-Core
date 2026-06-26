@@ -58,3 +58,11 @@ Human relationships are one of the most powerful mirrors of our inner world. The
 By combining long-term reflection with cognitive modeling, ALMA helps people recognize the hidden psychological mechanisms that shape their choices, relationships, and personal growth.
 
 Its purpose is not to make decisions for people, but to help them make better decisions through deeper self-understanding.
+
+## Vision
+
+We envision a future where every person has access to a private cognitive mirror that helps them better understand themselves throughout life.
+
+Rather than replacing human intuition or professional support, ALMA strengthens self-awareness by revealing patterns, tracking personal growth, and helping people make more conscious decisions.
+
+Our long-term vision is to make deep self-understanding available to everyone—not only during moments of crisis, but as a natural part of everyday life.
