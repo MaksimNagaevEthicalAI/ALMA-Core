@@ -1,6 +1,6 @@
 # ALMA Core
 
-> Understanding relationship patterns through cognitive architecture.
+> Helping people understand themselves through cognitive reflection.
 
 ---
 
