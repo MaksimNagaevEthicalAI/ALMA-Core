@@ -12,6 +12,7 @@ The Product Bible defines the long-term principles, mission and product philosop
 
 Every strategic product decision should remain consistent with this document.
 
+
 # PB-001 — Problem Statement
 
 ## The Problem
@@ -47,6 +48,7 @@ ALMA is designed to increase understanding before attempting to influence decisi
 
 Insight comes before advice.
 
+
 # PB-002 — Mission
 
 ## Mission
@@ -59,6 +61,7 @@ By combining long-term reflection with cognitive modeling, ALMA helps people rec
 
 Its purpose is not to make decisions for people, but to help them make better decisions through deeper self-understanding.
 
+
 # PB-003 — Vision
 
 ## Vision
@@ -68,6 +71,7 @@ We envision a future where every person has access to a private cognitive mirror
 Rather than replacing human intuition or professional support, ALMA strengthens self-awareness by revealing patterns, tracking personal growth, and helping people make more conscious decisions.
 
 Our long-term vision is to make deep self-understanding available to everyone—not only during moments of crisis, but as a natural part of everyday life.
+
 
 # PB-004 — What ALMA Is Not
 
@@ -98,6 +102,7 @@ It helps people understand themselves more clearly, but every important decision
 ALMA is **not** designed to create dependence.
 
 Its long-term goal is to increase self-understanding, emotional independence, and the ability to make conscious choices without relying on ALMA itself.
+
 
 # PB-005 — Core Principles
 
@@ -152,6 +157,7 @@ The purpose of ALMA is not to predict the future but to improve the quality of s
 The ultimate success of ALMA is not creating long-term dependence.
 
 It is helping people become increasingly capable of understanding themselves without needing ALMA.
+
 
 # PB-006 — Definition of ALMA
 
