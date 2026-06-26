@@ -39,7 +39,7 @@ These questions are rarely isolated events.
 
 They are symptoms of deeper psychological mechanisms that remain largely invisible to the individual.
 
-ALMA exists to investigate those mechanisms.
+ALMA exists to help people understand the hidden psychologigal mechanisms that shape their relationships.
 
 ## Design Philosophy
 
