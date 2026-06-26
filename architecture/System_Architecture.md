@@ -1,33 +1,32 @@
-                     ALMA
+                    USER
 
-             ┌─────────────────┐
-             │ Conversation     │
-             └────────┬─────────┘
                       │
                       ▼
-             ┌─────────────────┐
-             │ Observation      │
-             └────────┬─────────┘
+
+             Conversation Layer
                       │
                       ▼
-             ┌─────────────────┐
-             │ Pattern          │
-             └────────┬─────────┘
+
+             Observation Layer
                       │
                       ▼
-             ┌─────────────────┐
-             │ Hypothesis       │
-             └────────┬─────────┘
+
+                Pattern Layer
                       │
                       ▼
-             ┌─────────────────┐
-             │ Person Model     │
-             └────────┬─────────┘
+
+             Hypothesis Engine
                       │
                       ▼
-             ┌─────────────────┐
-             │ Reflection       │
-             └────────┬─────────┘
+
+               Person Model
                       │
+          ┌───────────┴───────────┐
+          ▼                       ▼
+
+   Reflection Engine      Memory System
+          │                       │
+          └───────────┬───────────┘
                       ▼
-             Next Conversation
+
+            Next Conversation
