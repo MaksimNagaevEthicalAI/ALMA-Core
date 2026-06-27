@@ -1,37 +1,50 @@
                     USER
 
                       │
-                      ▼
 
-             Conversation Layer
-                      │
-                      ▼
+                Conversation
 
-             Observation Layer
                       │
-                      ▼
 
-                Pattern Layer
+             Interpretation Engine
+
                       │
-                      ▼
+
+             Observation Model
+
+                      │
+
+               Pattern Model
+
+                      │
 
              Hypothesis Engine
+
                       │
-                      ▼
 
-               Person Model
-                      │
-          ┌───────────┴───────────┐
-          ▼                       ▼
+═══════════════════════════════════
 
-   Reflection Engine      Memory System
-       
-          │                       │
-          
-          └───────────┬───────────┘
-                      ▼
+          Cognitive State
 
-            Next Conversation
+═══════════════════════════════════
 
+Person
+Memory
+Patterns
+Hypotheses
+Confidence
+Questions
+Reflection
+Uncertainty
 
-            
+═══════════════════════════════════
+
+      Reflection Engine
+
+             │
+
+      Question Engine
+
+             │
+
+      Next Conversation
