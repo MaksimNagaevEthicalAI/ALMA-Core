@@ -1,102 +1,151 @@
 # Cognitive Pipeline
 
-Version: 0.1
+**Version:** 1.0
 
-Status: Draft
+**Status:** Draft
+
+**Last Updated:** 2026-06-27
 
 ---
 
 ## Purpose
 
-The Cognitive Pipeline defines how ALMA transforms conversations into psychological understanding.
+The Cognitive Pipeline defines how ALMA continuously transforms conversations into evolving psychological understanding.
 
-Rather than generating immediate answers, ALMA gradually constructs an evolving cognitive representation of the individual through multiple reasoning stages.
+Rather than operating as a sequence of isolated processing steps, ALMA maintains a single evolving Cognitive State that is refined through every interaction.
+
+The Cognitive Pipeline describes this continuous cycle of understanding.
 
 ---
 
 ## Fundamental Principle
 
-ALMA does not generate understanding in a single step.
+Understanding is not generated in a single step.
 
-Understanding emerges through a sequence of cognitive transformations.
+It emerges through continuous interpretation, reasoning, reflection, and revision.
 
-Each stage reduces uncertainty by transforming unstructured human experience into increasingly structured psychological knowledge.
-
-Every stage remains open to revision as new evidence becomes available.
+Every conversation contributes to the ongoing evolution of the Cognitive State.
 
 ---
 
-## Cognitive Flow
+## Cognitive Cycle
 
 Conversation
-        ↓
-Observation
-        ↓
-Pattern
-        ↓
-Hypothesis
-        ↓
-Person Model
-        ↓
+
+↓
+
+Interpretation
+
+↓
+
+Observation Update
+
+↓
+
+Pattern Update
+
+↓
+
+Hypothesis Update
+
+↓
+
+Memory Update
+
+↓
+
+Person Model Update
+
+↓
+
+Confidence Update
+
+↓
+
 Reflection
-        ↓
+
+↓
+
+Question
+
+↓
+
 Next Conversation
 
+↓
 
-Conversation
+Updated Cognitive State
 
-Natural dialogue.
-
-Nothing is assumed to be true yet.
-
-Observation
-
-Structured psychological evidence extracted from the conversation.
-
-Pattern
-
-Repeated observations connected across time.
-
-Hypothesis
-
-Possible explanations for observed patterns.
-
-Multiple hypotheses may coexist.
-
-Person Model
-
-The current evolving representation of the individual.
-
-Reflection
-
-Insights and questions returned to the person.
-
-Reflection generates the next conversation.
+This cycle repeats continuously throughout the lifetime of the relationship between ALMA and the user.
 
 ---
 
-## Design Rules
+## Cognitive State
 
-Every cognitive stage must have a clearly defined input and output.
+At every stage, all cognitive components operate on the same shared Cognitive State.
 
-No stage may directly skip another stage.
+The Cognitive State contains:
 
-Psychological certainty is never assumed.
+* Person Model
+* Memory
+* Active Observations
+* Active Patterns
+* Active Hypotheses
+* Confidence
+* Uncertainty
+* Open Questions
+* Recent Insights
 
-Every stage remains revisable.
+No component maintains an independent psychological representation.
 
-New evidence may modify every previous stage.
+---
+
+## Pipeline Characteristics
+
+The Cognitive Pipeline is:
+
+* iterative;
+* evidence-based;
+* explainable;
+* transparent;
+* continuously revisable;
+* psychologically oriented.
+
+Understanding improves gradually rather than instantly.
+
+---
+
+## Feedback Loop
+
+Each completed cycle improves future interpretation.
+
+Updated understanding influences:
+
+* future observations;
+* hypothesis generation;
+* confidence estimation;
+* reflection quality;
+* question selection.
+
+Learning is continuous.
+
+---
+
+## Relationship to Architecture
+
+The Cognitive Pipeline connects:
+
+* Components
+* Objects
+* Reasoning Models
+* Cognitive State
+
+It defines how they cooperate to produce an evolving psychological understanding.
 
 ---
 
 ## Closing Principle
 
-The Cognitive Pipeline is not a workflow.
+The Cognitive Pipeline is not a workflow for generating responses.
 
-It is ALMA's way of thinking.
-
-Every conversation moves through this pipeline, gradually reducing uncertainty while preserving openness to revision.
-
-Understanding is not generated instantly.
-
-It emerges over time.
+It is the continuous cognitive process through which ALMA gradually develops a deeper and more coherent understanding of a person.
