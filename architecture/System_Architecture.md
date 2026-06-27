@@ -29,12 +29,19 @@
 ═══════════════════════════════════
 
 Person
+
 Memory
+
 Patterns
+
 Hypotheses
+
 Confidence
+
 Questions
+
 Reflection
+
 Uncertainty
 
 ═══════════════════════════════════
