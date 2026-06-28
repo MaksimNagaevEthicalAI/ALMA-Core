@@ -281,7 +281,7 @@ Open Research Platform
 
 ## Research Overview
 
-https://button-alyssum-638.notion.site/
+https://button-alyssum-638.notion.site/ALMA-AI-Research-Overview-31745b82b9708019988ecb95b538ed3d
 
 ## Medium
 
