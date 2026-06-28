@@ -1,73 +1,115 @@
 # ALMA Core
 
-> Evidence-based cognitive architecture for long-term psychological understanding.
+> **Evidence-based cognitive architecture for long-term psychological understanding.**
 
-ALMA Core is an independent research project exploring how artificial intelligence can build continuously evolving psychological representations of people through evidence, probabilistic reasoning, uncertainty management, and reflective dialogue.
+ALMA Core is an independent research project exploring how artificial intelligence can move beyond response generation toward continuously evolving psychological understanding.
 
-Unlike traditional conversational AI, ALMA is designed to improve understanding rather than generate immediate answers.
+Rather than treating conversations as isolated interactions, ALMA Core investigates how AI can accumulate evidence, recognize recurring patterns, construct competing hypotheses, manage uncertainty, and continuously refine a structured cognitive representation of an individual.
 
 ---
 
 # Vision
 
-Most AI systems are optimized to produce responses.
+Most AI systems are optimized to produce better responses.
 
-ALMA is designed to improve psychological understanding.
+ALMA Core explores a different objective:
 
-Instead of predicting the most likely answer, ALMA continuously builds, evaluates, and revises an evolving cognitive representation of an individual.
+> **Can artificial intelligence continuously improve its understanding of a person rather than simply improve its answers?**
 
-The project explores whether AI can become a transparent reasoning system rather than simply a conversational interface.
+Understanding is treated as an evolving cognitive process rather than a sequence of isolated conversations.
 
 ---
 
-# Core Principles
+# Research Philosophy
 
-- Understand before advising.
-- Evidence before conclusions.
-- Search for explanations rather than labels.
-- Preserve uncertainty whenever evidence is insufficient.
-- Every conclusion remains revisable.
-- Every conversation improves the model.
-- Psychological clarity is more valuable than immediate answers.
+ALMA Core is built upon several fundamental principles.
+
+- Understanding before advice
+- Evidence before conclusions
+- Transparency before complexity
+- Preserve uncertainty whenever evidence is insufficient
+- Every conclusion remains revisable
+- Human autonomy always comes first
+
+The architecture is intentionally designed to support reflection rather than persuasion.
 
 ---
 
 # Architecture Overview
 
-The current research architecture consists of several independent cognitive layers.
+The architecture separates conversational interaction from cognitive understanding.
 
-```
+```text
 Conversation
-      │
-      ▼
+
+        │
+
+        ▼
+
 Interpretation Engine
-      │
-      ▼
+
+        │
+
+        ▼
+
 Observation Model
-      │
-      ▼
+
+        │
+
+        ▼
+
 Pattern Model
-      │
-      ▼
+
+        │
+
+        ▼
+
 Hypothesis Engine
-      │
-      ▼
+
+        │
+
+        ▼
+
+Evidence Evaluation
+
+        │
+
+        ▼
+
+Confidence Model
+
+        │
+
+        ▼
+
 Memory System
-      │
-      ▼
+
+        │
+
+        ▼
+
 Person Model
-      │
-      ▼
+
+        │
+
+        ▼
+
+Cognitive State
+
+        │
+
+        ▼
+
 Reflection Engine
-      │
-      ▼
-Question Engine
-      │
-      ▼
-Next Conversation
+
+        │
+
+        ▼
+
+Adaptive Questions
 ```
 
-Each component has a single responsibility and exchanges structured cognitive objects rather than raw conversational text.
+Each component performs a single cognitive responsibility while contributing to a continuously evolving representation of the individual.
 
 ---
 
@@ -78,68 +120,46 @@ architecture/
 
     components/
         Cognitive components
-        Memory
-        Interpretation
-        Reflection
-        Person Model
-        ...
 
     objects/
-        Observation
-        Pattern
-        Hypothesis
+        Cognitive objects
 
     reasoning/
-        Evidence
-        Inference
-        Confidence
-        Contradictions
-        Cognitive State
-        Knowledge Representation
+        Reasoning framework
 
 prototype/
+    Prototype documentation
 
-docs/
+README.md
 ```
 
 ---
 
-# Current Research Status
+# Cognitive Components
 
-Current work focuses on designing the complete cognitive architecture before implementation.
+Current architecture includes:
 
-Current priorities include:
-
-- Cognitive architecture
-- Psychological knowledge representation
-- Evidence-based reasoning
+- Interpretation Engine
+- Observation Model
+- Pattern Model
+- Hypothesis Engine
+- Evidence Model
+- Confidence Model
+- Memory System
+- Person Model
 - Cognitive State
-- Memory architecture
-- Prototype design
+- Reflection Engine
+- Question Engine
 
-Implementation is intentionally postponed until the architecture becomes sufficiently mature and internally consistent.
-
----
-
-# Cognitive Philosophy
-
-ALMA is not a diagnostic system.
-
-ALMA is not a therapist.
-
-ALMA is not a personality classifier.
-
-Instead, ALMA continuously constructs an evolving psychological representation that becomes more accurate through conversation.
-
-Understanding is treated as an ongoing cognitive process rather than a final result.
+Each component is documented independently.
 
 ---
 
-# Reasoning Model
+# Reasoning Pipeline
 
-The reasoning pipeline follows a structured progression:
+Psychological understanding develops progressively.
 
-```
+```text
 Conversation
 
 ↓
@@ -160,11 +180,11 @@ Hypotheses
 
 ↓
 
-Evidence Evaluation
+Evidence
 
 ↓
 
-Confidence Estimation
+Confidence
 
 ↓
 
@@ -172,7 +192,11 @@ Memory Update
 
 ↓
 
-Person Model Update
+Person Model
+
+↓
+
+Cognitive State
 
 ↓
 
@@ -180,104 +204,156 @@ Reflection
 
 ↓
 
-Questions
+Adaptive Questions
 
 ↓
 
 Next Conversation
 ```
 
-Every stage can modify previous assumptions.
-
-Nothing is permanently fixed.
+Understanding therefore becomes cumulative rather than episodic.
 
 ---
 
-# Design Goals
+# Current Status
 
-ALMA is designed to be:
+Current phase:
 
-- evidence-based
-- explainable
-- transparent
-- probabilistic
-- psychologically grounded
-- continuously revisable
-- modular
-- implementation independent
+**Research Architecture**
+
+Current work focuses on:
+
+- Cognitive Architecture
+- Knowledge Representation
+- Evidence-Based Reasoning
+- Cognitive Objects
+- Prototype Design
+- Documentation
+
+Implementation has intentionally not yet begun.
+
+The architecture is being designed before software development starts.
+
+---
+
+# Prototype
+
+The first prototype aims to validate the central research hypothesis.
+
+Rather than demonstrating product features, the prototype will investigate whether evidence-based cognitive reasoning can improve long-term psychological understanding.
+
+Initial capabilities include:
+
+- structured observations
+- pattern detection
+- hypothesis generation
+- confidence estimation
+- evolving Cognitive State
+- reflective output
 
 ---
 
 # Documentation
 
-The repository currently contains documentation for:
+Architecture documentation includes:
 
 - System Architecture
-- Cognitive Components
-- Cognitive Objects
-- Reasoning Framework
 - Cognitive State
-- Prototype Design
-
-Additional research documentation is published separately through Notion.
-
----
-
-# Roadmap
-
-## Phase 1
-
-Architecture Design
-
-**Status:** In Progress
-
-- Cognitive architecture
-- Component interfaces
-- Reasoning models
-- Knowledge representation
+- Knowledge Representation
+- Component Interfaces
+- Observation Model
+- Pattern Model
+- Hypothesis Engine
+- Evidence Model
+- Confidence Model
+- Memory System
+- Reflection Engine
+- Prototype Documentation
 
 ---
 
-## Phase 2
+# Related Projects
 
-Prototype
+## ALMA AI
 
-**Status:** Planned
+Research initiative exploring long-term psychological understanding through evidence-based cognitive architectures.
 
-- Internal cognitive pipeline
-- Structured state updates
-- Reflection generation
-- Experimental conversations
+## ALMA Research
 
----
-
-## Phase 3
-
-Research Implementation
-
-**Status:** Planned
-
-- Experimental implementation
-- Architecture validation
-- Cognitive evaluation
-- Research publications
+Historical repository containing the early concepts, executive briefs, and conceptual evolution of the project.
 
 ---
 
-## Phase 4
+# Research Roadmap
+
+### Phase 1
+
+Architecture Foundation
+
+✔ Completed
+
+---
+
+### Phase 2
+
+Cognitive Architecture
+
+✔ In Progress
+
+---
+
+### Phase 3
+
+Prototype Validation
+
+Planned
+
+---
+
+### Phase 4
+
+Experimental Implementation
+
+Planned
+
+---
+
+### Phase 5
 
 Open Research Platform
 
-**Status:** Future
-
-- Public demonstrations
-- Research collaborations
-- API
-- Community contributions
+Future
 
 ---
 
-# Related Resources
+# Contributing
+
+ALMA Core is currently developed as an open research initiative.
+
+Constructive feedback, discussion, and interdisciplinary collaboration are welcome.
+
+The project is particularly interested in collaboration across:
+
+- Artificial Intelligence
+- Cognitive Science
+- Psychology
+- Human–Computer Interaction
+- Explainable AI
+- AI Ethics
+
+---
+
+# Author
+
+**Maksim Nagaev**
+
+Founder of ALMA AI
+
+Building an evidence-based cognitive architecture for long-term psychological understanding.
+
+---
+
+# Additional Resources
 
 ## Research Overview
 
@@ -293,20 +369,12 @@ https://www.linkedin.com/in/maksim-nagaev-ai/
 
 ---
 
-# Author
-
-**Maksim Nagaev**
-
-Founder of ALMA AI
-
-Independent Research Initiative on Psychological Compatibility, Cognitive Architecture and Evidence-Based AI.
-
----
-
 # License
 
 MIT License
 
 The project is released for research and educational purposes.
 
-Contributions, discussions, and academic collaboration are welcome.
+
+
+
