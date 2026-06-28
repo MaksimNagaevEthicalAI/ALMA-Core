@@ -1,151 +1,280 @@
 # Component Interfaces
 
-**Version:** 0.1
+Version: 0.2
 
-**Status:** Draft
+Status: Draft
 
-**Last Updated:** 2026-06-27
-
----
-
-## Purpose
-
-The Component Interfaces document defines how ALMA's core cognitive components exchange information.
-
-Each component has a clearly defined responsibility.
-
-Components communicate through structured outputs rather than direct access to each other's internal logic.
-
-This separation preserves modularity, transparency, and future extensibility.
+Last Updated: 2026-06-28
 
 ---
 
-## Design Principles
+# Purpose
 
-* Every component has a single responsibility.
-* Every component has defined inputs and outputs.
-* Components exchange structured cognitive objects.
-* Components remain independent of implementation details.
-* Components should be replaceable without redesigning the entire architecture.
+The Component Interfaces document defines how ALMA's cognitive components communicate while maintaining a unified Cognitive State.
+
+Components do not communicate through internal implementation details.
+
+Each component receives the current Cognitive State, performs its specialized reasoning, and returns an updated Cognitive State.
+
+This architecture guarantees modularity, transparency, and extensibility.
 
 ---
 
-## Core Interfaces
+# Fundamental Principle
 
-### Conversation → Interpretation Engine
+Every component has a single responsibility.
+
+Every component reads the current Cognitive State.
+
+Every component contributes only its own refinement.
+
+No component owns the complete understanding of a person.
+
+The Cognitive State is the only shared cognitive representation.
+
+---
+
+# General Processing Interface
+
+Every cognitive component follows the same interface.
 
 Input:
 
-* Raw conversation
-* Conversation metadata
+- Current Cognitive State
+- Conversation data (when available)
+
+↓
+
+Component Processing
+
+↓
 
 Output:
 
-* Candidate interpretations
+- Updated Cognitive State
+
+Components never modify another component directly.
 
 ---
 
-### Interpretation Engine → Observation Model
+# Core Component Flow
 
-Input:
+Conversation
 
-* Candidate interpretations
+↓
 
-Output:
+Interpretation Engine
 
-* Structured observations
+↓
 
----
+Observation Model
 
-### Observation Model → Pattern Model
+↓
 
-Input:
+Pattern Model
 
-* Observations
+↓
 
-Output:
+Hypothesis Engine
 
-* Candidate patterns
+↓
 
----
+Memory System
 
-### Pattern Model → Hypothesis Engine
+↓
 
-Input:
+Person Model
 
-* Confirmed patterns
+↓
 
-Output:
+Reflection Engine
 
-* Active hypotheses
+↓
 
----
+Question Engine
 
-### Hypothesis Engine → Memory System
+↓
 
-Input:
-
-* Validated hypotheses
-* Confidence updates
-
-Output:
-
-* Updated psychological memory
+Updated Cognitive State
 
 ---
 
-### Memory System → Person Model
+# Component Responsibilities
 
-Input:
+## Interpretation Engine
 
-* Long-term psychological knowledge
+Reads:
 
-Output:
+- Conversation
+- Current Cognitive State
 
-* Updated person representation
+Produces:
 
----
+- Candidate interpretations
 
-### Person Model → Reflection Engine
+Updates:
 
-Input:
-
-* Current psychological model
-
-Output:
-
-* Reflections
-* Insights
+- Cognitive State
 
 ---
 
-### Reflection Engine → Question Engine
+## Observation Model
 
-Input:
+Reads:
 
-* Current reflections
-* Remaining uncertainty
+- Candidate interpretations
+- Current Cognitive State
 
-Output:
+Produces:
 
-* Next question
+- Structured observations
 
----
+Updates:
 
-### Question Engine → Conversation
-
-Input:
-
-* Selected question
-
-Output:
-
-* Next conversational interaction
+- Active Observations
 
 ---
 
-## Closing Principle
+## Pattern Model
 
-No component should bypass another component.
+Reads:
 
-Psychological understanding emerges through the complete cognitive pipeline rather than isolated reasoning steps.
+- Active observations
+
+Produces:
+
+- Candidate patterns
+
+Updates:
+
+- Active Patterns
+
+---
+
+## Hypothesis Engine
+
+Reads:
+
+- Active patterns
+- Evidence
+
+Produces:
+
+- Psychological hypotheses
+
+Updates:
+
+- Active Hypotheses
+- Confidence
+- Uncertainty
+
+---
+
+## Memory System
+
+Reads:
+
+- Confirmed hypotheses
+- Confirmed observations
+
+Produces:
+
+- Long-term psychological memory
+
+Updates:
+
+- Memory
+
+---
+
+## Person Model
+
+Reads:
+
+- Memory
+- Patterns
+- Hypotheses
+
+Produces:
+
+- Current psychological representation
+
+Updates:
+
+- Person Model
+
+---
+
+## Reflection Engine
+
+Reads:
+
+- Complete Cognitive State
+
+Produces:
+
+- Psychological reflections
+
+Updates:
+
+- Recent Insights
+
+---
+
+## Question Engine
+
+Reads:
+
+- Cognitive State
+- Uncertainty
+- Missing Evidence
+
+Produces:
+
+- Clarifying questions
+
+Updates:
+
+- Open Questions
+
+---
+
+# Shared Cognitive State
+
+Every component contributes to a shared Cognitive State containing:
+
+- Person Model
+- Memory
+- Active Observations
+- Active Patterns
+- Active Hypotheses
+- Confidence
+- Uncertainty
+- Open Questions
+- Recent Insights
+
+No component maintains an independent cognitive representation.
+
+---
+
+# Design Principles
+
+Components are:
+
+- modular;
+- explainable;
+- replaceable;
+- evidence-driven;
+- psychologically consistent.
+
+Each component improves understanding without breaking existing knowledge.
+
+---
+
+# Closing Principle
+
+The architecture is not a processing pipeline.
+
+It is a cooperative cognitive system in which specialized components continuously refine a shared Cognitive State.
+
+Understanding emerges from their interaction rather than from any individual component.
