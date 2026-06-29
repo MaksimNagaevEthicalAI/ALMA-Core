@@ -45,7 +45,9 @@ The processing pipeline illustrates how ALMA transforms conversational observati
 ## Repository Structure
 
 architecture/
+
 docs/
+
 prototype/
 
 ---
