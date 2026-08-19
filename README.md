@@ -203,6 +203,32 @@ The purpose of the current stage is to determine whether the underlying cognitiv
 
 ---
 
+## Research Demonstrations
+
+The ALMA research approach is also demonstrated through public synthetic research materials.
+
+### Kaggle Dataset
+
+A small synthetic dataset demonstrating the evidence-based reasoning structure used by ALMA:
+
+**[ALMA AI — Evidence-Based Reasoning Demo Dataset](https://www.kaggle.com/datasets/almaairesearch/alma-ai-evidence-based-reasoning-demo-dataset/data)**
+
+The dataset demonstrates the separation of:
+
+**Observation → Evidence → Hypothesis → Confidence → Uncertainty → Revision**
+
+It contains no private user conversations or personal data.
+
+### Kaggle Notebook
+
+An executable demonstration using the dataset:
+
+**[ALMA AI — Evidence-Based Reasoning Demo](https://www.kaggle.com/code/almaairesearch/alma-ai-evidence-based-reasoning-demo)**
+
+The notebook illustrates how evidence-based and revisable reasoning can be represented and examined programmatically.
+
+---
+
 ## Documentation
 
 ### Current Product Vision & Development
@@ -222,6 +248,12 @@ See [`docs/`](docs/) for research and product documentation.
 ### Prototype
 
 See [`prototype/`](prototype/) for prototype-related materials.
+
+### ALMA Research
+
+The broader research archive, including research papers, architectural documents, concepts, executive materials, and historical project documentation:
+
+**[ALMA Research](https://github.com/MaksimNagaevEthicalAI/ALMA-Research)**
 
 ---
 
