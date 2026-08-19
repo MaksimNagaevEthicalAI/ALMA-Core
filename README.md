@@ -227,6 +227,14 @@ An executable demonstration using the dataset:
 
 The notebook illustrates how evidence-based and revisable reasoning can be represented and examined programmatically.
 
+### Interactive Prototype
+
+An interactive demonstration of the ALMA AI prototype is available on Hugging Face:
+
+**[ALMA AI — Hugging Face Space](https://huggingface.co/spaces/MaksimNagaevEthicalAI/alma-ai)**
+
+The Space provides an accessible way to explore the current ALMA prototype and its cognitive architecture.
+
 ---
 
 ## Documentation
